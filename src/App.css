@@ -1,0 +1,146 @@
+.app {
+  background-color: black;
+  width: 100%;
+  height: auto;
+  /* padding-bottom: 200px; */
+}
+
+
+.first {
+  font-size: 80px;
+  font-style: italic;
+  font-family: Georgia;
+  color: rgba(28, 155, 81, 0.957);
+}
+
+.second {
+  font-size: 60px;
+  font-family: fangsong;
+  color: rgb(255, 255, 255);
+}
+
+.multipurpose {
+  font-size: 50px;
+  /* font-family: fangsong; */
+  color: rgba(28, 155, 81, 0.927);
+  font-weight: bold;
+}
+
+.Streaming {
+  font-size: 50px;
+  /* font-family: fangsong; */
+  color: rgb(255, 255, 255);
+  font-weight: bold;
+}
+
+.btnpurchase:hover {
+  box-shadow: 1px 1px 37px white;
+  transition: 1s;
+}
+
+.btndemo:hover {
+  box-shadow: 1px 1px 37px rgb(17, 213, 99);
+  transition: 1s;
+}
+
+.cartimg {
+  box-shadow: 5px 0px 10px rgb(201, 197, 197);
+}
+
+.carthover:hover h1 {
+  background-color: rgb(41, 53, 53);
+  transition: 1s;
+  border-radius: 25px 25px 0px 0px;
+}
+
+.bg-all {
+  background-image: url(/public/bg-all.png);
+  width: 90%;
+  height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  border-radius: 30px;
+  margin-top: -10px;
+  transform: skewX(9deg);
+  margin-left: 60px;
+
+}
+
+.mainContainer {
+  background-image: url('/public/mainbg.jpg');
+  background-position: center;
+  background-size: 140% 160vh;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  height: 100vh;
+}
+
+.shadow {
+  background-color: rgba(0, 0, 0, 0.8);
+  height: 100vh;
+}
+
+.admin-login {
+  background-image: url('/public/amdin-login-bg.jpeg');
+  background-position: center;
+  background-size: 101% 100vh;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  height: 100vh;
+}
+
+.admin {
+  background-image: url('/public/admin-login.jpeg');
+  background-position: center;
+  background-size: 100% 90vh;
+  height: 200px;
+}
+
+.adminDashboard {
+  background-image: url('/public/admindashboard.png');
+  background-position: center;
+  background-size: cover;
+  height: 100vh;
+}
+
+.add-video-panel {
+  background-image: url(/public/add-video.jpg);
+  background-position: center;
+  background-size: 80% 92vh;
+  height: auto;
+  overflow: hidden;
+  animation: add-video 1s linear;
+  transition: 2s;
+}
+
+@keyframes add-video {
+  0% {
+    transform: scale(0);
+    transition: 1s;
+    opacity: 0;
+  }
+
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
+
+.add-video-panel input::placeholder,
+.add-video-panel textarea::placeholder {
+  color: rgb(219, 34, 6);
+}
+
+.User-login {
+  background-image: url('/public/amdin-login-bg.jpeg');
+  background-position: center;
+  background-size: 101% 100vh;
+  background-repeat: no-repeat;
+  background-attachment: local;
+  height: 100vh;
+}
+
+.User-login input::placeholder {
+  color: rgb(0, 0, 252);
+}
